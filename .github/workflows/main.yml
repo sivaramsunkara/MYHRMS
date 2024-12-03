@@ -1,7 +1,8 @@
 on:
-  label:
+  issues:
     types:
-      - created
+      - opened
+      - labeled
   push:
     branches:
         -master
