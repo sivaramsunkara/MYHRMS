@@ -1,13 +1,10 @@
 on:
-  issues:
-    types:
-      - opened
-      - labeled
   push:
     branches:
-        -master
+        - main
+
 jobs:
   print_hello:
     runs-on: ubuntu-latest
     steps:
-       - run: "echo myapp"
+        - run: "echo myapp"
