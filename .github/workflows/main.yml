@@ -1,4 +1,7 @@
 on:
+  label:
+    types:
+      - create
   push:
     branches:
         - main
